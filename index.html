@@ -1,0 +1,11 @@
+---
+layout: default
+title: Hunt's blog
+---
+
+<p>recent posts:</p>
+<ul>
+    {% for post in site.posts limit:10 %}
+    <li> {{ post.date | date_to_string }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
