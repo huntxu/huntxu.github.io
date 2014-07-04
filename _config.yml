@@ -1,3 +1,7 @@
+name: Hunt's blog
+description: 伤情处，高城望断，灯火已黄昏…
+url: http://huntxu.github.io
+
 timezone: Asia/Hong_Kong
 
 permalink: /:year-:month-:day-:title.html
