@@ -102,8 +102,10 @@ title: nftables 学习笔记
 
 ### rules
 1. adding
-  * nft add rule   filter      output     ip daddr 8.8.8.8    counter
-                  ^-table-^   ^-chain-^   ^^--matching--^^   ^-action-^
+
+        nft add rule   filter      output     ip daddr 8.8.8.8    counter
+                      ^-table-^   ^-chain-^   ^^--matching--^^   ^-action-^
+
 2. listing
   * nft list table filter
   * nft add rule filter output tcp dport ssh counter
