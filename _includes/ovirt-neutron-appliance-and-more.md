@@ -14,6 +14,7 @@
 
 1. [Neutron appliance 的準備工作](./2014-12-02-ovirt-neutron-appliance-preparing.html)
 1. [Neutron appliance 的使用](./2014-12-03-ovirt-neutron-appliance-usage.html)
+1. [Neutron appliance 的構建](./2014-12-11-ovirt-neutron-appliance-building.html)
 
 ---
 
