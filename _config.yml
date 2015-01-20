@@ -4,6 +4,9 @@ url: http://huntxu.github.io
 
 timezone: Asia/Hong_Kong
 
+paginate: 10
+paginate_path: "page:num"
+
 permalink: /:year-:month-:day-:title.html
 
 markdown: redcarpet
